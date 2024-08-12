@@ -4,8 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "SobreMimScanner",
+            "request": "launch",
+            "mainClass": "SobreMimScanner",
+            "projectName": "SobreMim_e07c163b"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -25,20 +30,6 @@
             "request": "launch",
             "mainClass": "SobreMim",
             "projectName": "SobreMim_e07c163b"
-        }
-   
-        {
-            "type": "java",
-            "request": "launch",
-            "mainClass": "SobreMim",
-            "args": [
-                "Riberto",
-                "Matos",
-                "39",
-                "1.74",
-            ]
-
-
         }
     ]
 }
