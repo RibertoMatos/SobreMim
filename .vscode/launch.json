@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorCepExp",
+            "request": "launch",
+            "mainClass": "FormatadorCepExp",
+            "projectName": "SobreMim_e07c163b"
+        },
+        {
+            "type": "java",
+            "name": "SobreMimTryCatch",
+            "request": "launch",
+            "mainClass": "SobreMimTryCatch",
+            "projectName": "SobreMim_e07c163b"
+        },
+        {
+            "type": "java",
             "name": "SobreMimScanner",
             "request": "launch",
             "mainClass": "SobreMimScanner",
