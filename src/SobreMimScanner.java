@@ -6,7 +6,7 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
     
-
+    //Criando objeto scanner
     System.out.println("Digite seu nome: ");
     String nome = scanner.next();
 
@@ -19,6 +19,7 @@ public static void main(String[] args) {
     System.out.println("Digite sua altura: ");
     double altura = scanner.nextDouble();
 
+    //Imprimindo os dados obitidos
     System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + "anos");
         System.out.println("Minha altura é " + altura + "cm");
